@@ -20,8 +20,8 @@ int main()
 
     uLCD.text_height(4);
 
-    uLCD.color(GREEN);
-
+     uLCD.color(GREEN);
+    
     for (int i=30; i>=0; --i) {
 
         uLCD.locate(1,2);
